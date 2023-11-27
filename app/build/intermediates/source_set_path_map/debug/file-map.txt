@@ -1,0 +1,7 @@
+edu.upenn.recorder.app-pngs-0 D:\QRFLatest1\app\build\generated\res\pngs\debug
+edu.upenn.recorder.app-resValues-1 D:\QRFLatest1\app\build\generated\res\resValues\debug
+edu.upenn.recorder.app-packageDebugResources-2 D:\QRFLatest1\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+edu.upenn.recorder.app-packageDebugResources-3 D:\QRFLatest1\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+edu.upenn.recorder.app-merged_res-4 D:\QRFLatest1\app\build\intermediates\merged_res\debug
+edu.upenn.recorder.app-debug-5 D:\QRFLatest1\app\src\debug\res
+edu.upenn.recorder.app-main-6 D:\QRFLatest1\app\src\main\res

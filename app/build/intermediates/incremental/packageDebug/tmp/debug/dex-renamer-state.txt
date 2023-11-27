@@ -1,0 +1,4 @@
+#Mon Nov 27 23:06:21 PST 2023
+base.0=D\:\\QRFLatest1\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.upenn.recorder"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="7" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:name="edu.upenn.recorder.QRFApplicationData"
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:extractNativeLibs="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:testOnly="true" >
+        <activity
+            android:name="edu.upenn.recorder.QRFMain"
+            android:label="Configure Session" >
+        </activity>
+        <activity
+            android:name="edu.upenn.recorder.QRFConnect"
+            android:label="QRF" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.upenn.recorder.ExitActivity"
+            android:label="Exit" >
+        </activity>
+        <activity
+            android:name="edu.upenn.recorder.QRFStudents"
+            android:label="Configure Students" >
+        </activity>
+        <activity
+            android:name="edu.upenn.recorder.QRFInput"
+            android:label="Process Server Data" >
+        </activity>
+        <activity
+            android:name="edu.upenn.recorder.QRFFinish"
+            android:label="Wrap up" >
+        </activity>
+    </application>
+
+</manifest>

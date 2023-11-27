@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Version: " />    
+
+    <TextView
+        android:id="@+id/hostlabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="QRF hostname:" />
+
+    <EditText
+        android:id="@+id/qrf_host"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="192.168.1.100" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/usernamelabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Username:" />    
+    
+    <EditText
+        android:id="@+id/qrf_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="betty" >
+
+        <requestFocus />
+    </EditText>
+    
+    <TextView
+        android:id="@+id/passwordlabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Password:" />    
+    
+    <EditText
+        android:id="@+id/qrf_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="betty" >
+
+        <requestFocus />
+    </EditText>    
+    
+    <Button
+        android:id="@+id/check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dip"
+        android:minWidth="150dip"
+        android:text="Connect" />
+    
+    <TextView
+        android:id="@+id/netstat"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.39"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/start_app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dip"
+        android:minWidth="150dip"
+        android:text="Start" />
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="edu.upenn.recorder"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:6:5-43
+8        android:minSdkVersion="7"
+8-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:6:15-40
+9        android:targetSdkVersion="7" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:7:5-83
+11-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:8:5-81
+12-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:8:22-78
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:9:5-64
+13-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:9:22-62
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:10:5-71
+14-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:10:22-68
+15
+16    <uses-feature android:name="android.hardware.camera" />
+16-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:11:5-60
+16-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:11:19-57
+17
+18    <application
+18-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:13:5-37:19
+19        android:name="edu.upenn.recorder.QRFApplicationData"
+19-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:13:108-142
+20        android:allowBackup="true"
+20-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:13:48-74
+21        android:debuggable="true"
+22        android:extractNativeLibs="true"
+23        android:icon="@drawable/icon"
+23-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:13:18-47
+24        android:label="@string/app_name"
+24-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:13:75-107
+25        android:testOnly="true" >
+26        <activity
+26-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:15:9-16:20
+27            android:name="edu.upenn.recorder.QRFMain"
+27-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:15:19-42
+28            android:label="Configure Session" >
+28-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:15:43-76
+29        </activity>
+30        <activity
+30-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:18:9-23:20
+31            android:name="edu.upenn.recorder.QRFConnect"
+31-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:18:19-45
+32            android:label="QRF" >
+32-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:18:46-65
+33            <intent-filter>
+33-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:19:13-22:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:20:17-69
+34-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:20:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:21:17-77
+36-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:21:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:25:9-26:20
+40            android:name="edu.upenn.recorder.ExitActivity"
+40-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:25:19-47
+41            android:label="Exit" >
+41-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:25:48-68
+42        </activity>
+43        <activity
+43-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:28:9-29:20
+44            android:name="edu.upenn.recorder.QRFStudents"
+44-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:28:19-46
+45            android:label="Configure Students" >
+45-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:28:47-81
+46        </activity>
+47        <activity
+47-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:31:9-32:20
+48            android:name="edu.upenn.recorder.QRFInput"
+48-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:31:19-43
+49            android:label="Process Server Data" >
+49-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:31:44-79
+50        </activity>
+51        <activity
+51-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:34:9-35:20
+52            android:name="edu.upenn.recorder.QRFFinish"
+52-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:34:19-44
+53            android:label="Wrap up" >
+53-->D:\QRFLatest1\app\src\main\AndroidManifest.xml:34:45-68
+54        </activity>
+55    </application>
+56
+57</manifest>

@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "edu.upenn.recorder.app-merged_res-4:/layout_configure.xml.flat",
+        "source": "edu.upenn.recorder.app-main-6:/layout/configure.xml"
+    },
+    {
+        "merged": "edu.upenn.recorder.app-merged_res-4:/drawable-ldpi_icon.png.flat",
+        "source": "edu.upenn.recorder.app-main-6:/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "edu.upenn.recorder.app-merged_res-4:/layout_students.xml.flat",
+        "source": "edu.upenn.recorder.app-main-6:/layout/students.xml"
+    },
+    {
+        "merged": "edu.upenn.recorder.app-merged_res-4:/layout_input.xml.flat",
+        "source": "edu.upenn.recorder.app-main-6:/layout/input.xml"
+    },
+    {
+        "merged": "edu.upenn.recorder.app-merged_res-4:/layout_inputdialog.xml.flat",
+        "source": "edu.upenn.recorder.app-main-6:/layout/inputdialog.xml"
+    },
+    {
+        "merged": "edu.upenn.recorder.app-merged_res-4:/drawable-mdpi_icon.png.flat",
+        "source": "edu.upenn.recorder.app-main-6:/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "edu.upenn.recorder.app-merged_res-4:/drawable-hdpi_icon.png.flat",
+        "source": "edu.upenn.recorder.app-main-6:/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "edu.upenn.recorder.app-merged_res-4:/layout_finish.xml.flat",
+        "source": "edu.upenn.recorder.app-main-6:/layout/finish.xml"
+    },
+    {
+        "merged": "edu.upenn.recorder.app-merged_res-4:/layout_start.xml.flat",
+        "source": "edu.upenn.recorder.app-main-6:/layout/start.xml"
+    }
+]

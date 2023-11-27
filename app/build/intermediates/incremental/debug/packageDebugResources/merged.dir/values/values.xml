@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="intervention_list">
+        <item>CHOOSE INTERVENTION</item>
+		<item>None</item>
+        <item>Intervention</item>
+        <item>Whole</item>
+    </string-array>
+    <string-array name="mode_list">
+		<item>Choose One</item>
+        <item>Three Codes</item>
+        <item>Behavior/Affect</item>
+        <item>Affect Only</item>		
+    </string-array>
+    <integer name="observation_countdown_milliseconds">200000</integer>
+    <string name="affect_dropdown_label">Choose Affect</string>
+    <string name="app_name">QRF</string>
+    <string name="behavior_dropdown_label">Choose Behavior</string>
+    <string name="classname_field_hint">Enter the Class\' Name Here</string>
+    <string name="classname_field_label">Name of Class</string>
+    <string name="confirm_dialog_label">PLEASE CONFIRM</string>
+    <string name="curr_index_field_label">Student Number: 0, ID: xxxx</string>
+    <string name="edit_student_info_button_label">EDIT STUDENTS</string>
+    <string name="email_button_label">EMAIL DATA</string>
+    <string name="end_recording_label">End Recording</string>
+    <string name="error_dialog_label">ERROR</string>
+    <string name="exit_button_label">EXIT</string>
+    <string name="finish_button_label">finish</string>
+    <string name="first_item_button_label">FIRST</string>
+    <string name="get_behavior_data_label">Start Recording</string>
+    <string name="get_behaviorstudent_affectonly_label">Start Recording</string>
+    <string name="get_behaviorstudent_data_label">Start Recording</string>
+    <string name="get_class_info_label">Class Information</string>
+    <string name="get_scheme_info_label">Scheme Information</string>
+    <string name="get_schemestudent_affectonly_label">Scheme Information</string>
+    <string name="get_schemestudent_info_label">Scheme Information</string>
+    <string name="get_student_info_label">Student Information</string>
+    <string name="intervention_dropdown">Choose an Intervention</string>
+    <string name="intervention_dropdown_label">Choose an Intervention</string>
+    <string name="last_item_button_label">LAST</string>
+    <string name="mode_dropdown">Choose Mode</string>
+    <string name="mode_dropdown_label">Choose the Mode</string>
+    <string name="new_class_button_label">NEW CLASS</string>
+    <string name="next_button_label">next</string>
+    <string name="numstudents_field_hint">Enter Number of Students in Class</string>
+    <string name="numstudents_field_label">Number of Students</string>
+    <string name="observation_count_field_label">Observation: 0</string>
+    <string name="observation_countdown_field_label">Time Remaining: 0:00</string>
+    <string name="ok_button_label">ok</string>
+    <string name="password_field_hint">Enter The Password</string>
+    <string name="password_field_label">Password:</string>
+    <string name="prev_button_label">prev</string>
+    <string name="same_class_button_label">SAME CLASS</string>
+    <string name="scan_button_label">SCAN</string>
+    <string name="schoolname_field_hint">Enter the School\'s Name Here</string>
+    <string name="schoolname_field_label">Name of School</string>
+    <string name="skip_button_label">skip</string>
+    <string name="software_field_hint">Enter Which Software Is Being Used</string>
+    <string name="software_field_label">Software Package</string>
+    <string name="start_button_label">START RECORDING</string>
+    <string name="start_recording_field_label">Click To Start Recording Students</string>
+    <string name="start_recording_label">Start Recording</string>
+    <string name="student_id_field_hint">Enter the Student\'s ID</string>
+    <string name="student_id_field_label">Student ID:</string>
+    <string name="time_remaining_field_label">Time Remaining: 0 seconds</string>
+    <string name="username_field_hint">Enter Your Username</string>
+    <string name="username_field_label">User Name:</string>
+</resources>
